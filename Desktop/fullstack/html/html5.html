@@ -1,0 +1,53 @@
+<!--DIV TAG-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS Styles */
+        /* universal selector */
+       *{
+        border: 1px solid blue;
+       }
+       /* element selector */
+        div{
+            width: 100px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            background-color: blueviolet;
+            border: 2px solid black;
+        }
+        /* id selector */
+        #div2{
+            width: 200px;
+            background-color: blanchedalmond;
+        }
+        /* class selector */
+        .div3{
+            width: 300px;
+            background-color: lightblue;
+        }
+        /* attribute selector */
+        div[title=test]{
+            width: 400px;
+            background-color: aqua;
+        }
+        /* attribute value selector */
+        div[title=huuu]{
+            width: 500px;
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <!--div tag usage-->
+    <div style="background-color: red;">one</div>
+    <div id="div2">two</div>
+    <div class="div3">three</div>
+    <div class="div3">four</div>
+    <div title="test">five</div>
+    <div title="huuu">six</div>
+</body>
+</html>

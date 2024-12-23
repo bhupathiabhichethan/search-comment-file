@@ -1,0 +1,63 @@
+<!--pop_message's-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POP_UP</title>
+    <style>
+        div{
+            background-color: antiquewhite;
+            display:block;
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+            border: 1px solid rgb(20, 20, 20);
+        }
+    </style>
+    <script>
+       //pop up msg's:
+       function showalert(){
+        alert("danger");
+       }
+       function showconfirm(){
+        if(confirm("do you want to agree")){
+            alert("you agreed");
+        }
+        else{
+            alert("sorry you denied it");
+        }
+       }
+       function showprompt(){
+        const name=prompt("enter your name");
+        if (name) {
+            alert(`hello, ${name}! nice to meet you`);
+        }
+        else{
+            alert("you did not enter your name");
+        }
+       }
+       function color(){
+        if(confirm("do you want to change the body color:")){
+        document.body.style.backgroundColor="red";
+        document.body.style.fontSize="20pt";
+        alert("body colour changed to red and font change to new style");
+       }else{
+        alert("ok I won't change the body colour:");
+       }
+    }
+    </script>
+</head>
+<body>
+    <h3>pop_up_messages</h3>
+    <div>
+    <button onclick="showalert()">showalert</button>
+    <button onclick="showconfirm()">showconfirm</button>
+    <button onclick="showprompt()">showprompt</button>
+    <button onclick="color()">color</button>
+    </div>
+    <div id="div2"></div>
+    <script src="custom.js">
+    </script>
+</body>
+</html>

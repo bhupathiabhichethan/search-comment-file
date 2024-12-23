@@ -1,0 +1,35 @@
+<!--Functions-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //returnable function:
+     function sum(a,b){
+        return a+b;
+     }
+     console.log(sum(100,200));
+     //non returnable function:
+     function name(){
+        console.log("hey sathish");
+     }
+     name();
+     //variable parameters in function:
+     function sum(){
+        var s=0;
+        for(var i=0;i<arguments.length;i++){
+            s+=arguments[i];
+            }
+            console.log(s);
+     }
+     sum(10,20);
+     sum(10,20,30,40);
+     sum(10,20,30,40,50);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

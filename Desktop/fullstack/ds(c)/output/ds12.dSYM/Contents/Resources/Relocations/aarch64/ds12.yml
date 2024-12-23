@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bhupathiabhichethan/Desktop/fullstack/ds(c)/output/ds12'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AC4, symSize: 0x218 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _top, symObjAddr: 0xECC, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _a, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x8A, offset: 0x8A, size: 0x8, addend: 0x0, symName: _ele, symBinAddr: 0x10000802C, symSize: 0x0 }
+  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AC4, symSize: 0x218 }
+  - { offsetInCU: 0xC9, offset: 0xC9, size: 0x8, addend: 0x0, symName: _push, symObjAddr: 0x228, symBinAddr: 0x100003CEC, symSize: 0x4C }
+  - { offsetInCU: 0xED, offset: 0xED, size: 0x8, addend: 0x0, symName: _isFULL, symObjAddr: 0x274, symBinAddr: 0x100003D38, symSize: 0x18 }
+  - { offsetInCU: 0x106, offset: 0x106, size: 0x8, addend: 0x0, symName: _isEMPTY, symObjAddr: 0x28C, symBinAddr: 0x100003D50, symSize: 0x18 }
+  - { offsetInCU: 0x11F, offset: 0x11F, size: 0x8, addend: 0x0, symName: _pop, symObjAddr: 0x2A4, symBinAddr: 0x100003D68, symSize: 0x24 }
+  - { offsetInCU: 0x138, offset: 0x138, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0x2C8, symBinAddr: 0x100003D8C, symSize: 0x88 }
+...

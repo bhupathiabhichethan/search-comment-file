@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POP_UP</title>
+    <script>
+        // Function to show a confirm pop-up
+        function showPopup() {
+            if (confirm("Do you want to continue?")) {
+                alert("Okay, continuing...");
+            } else {
+                alert("You canceled.");
+            }
+        }
+
+        // Function to show an alert pop-up
+        function showAlert() {
+            alert("This is a simple alert message!");
+        }
+
+        // Function to show a prompt pop-up
+        function showPrompt() {
+            const name = prompt("Please enter your name:");
+            if (name) {
+                alert(`Hello, ${name}! Nice to meet you.`);
+            } else {
+                alert("You didn't enter a name.");
+            }
+        }
+
+        // Function to show a custom message based on user confirmation
+        function customAction() {
+            if (confirm("Do you want to perform a custom action?")) {
+                document.body.style.backgroundColor = "lightblue"; // Example custom action
+                alert("Background color changed to light blue!");
+            } else {
+                alert("Action canceled.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Control Pop-Up Messages</h1>
+    <button onclick="showPopup()">Show Confirm Pop-Up</button>
+    <button onclick="showAlert()">Show Alert Pop-Up</button>
+    <button onclick="showPrompt()">Show Prompt Pop-Up</button>
+    <button onclick="customAction()">Custom Action Pop-Up</button>
+</body>
+</html>

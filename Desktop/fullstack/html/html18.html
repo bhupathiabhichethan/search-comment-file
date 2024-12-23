@@ -1,0 +1,44 @@
+<!--FORM ASSIGNEMENT-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        .one{
+            margin-left:200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style=" border:dotted; background-color:antiquewhite; padding:20px; font-size:larger; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Please input your user information as required</div>
+    </header>
+    <br>
+    <section>
+        <form action="page.aspx" method="post">
+           <fieldset>
+            <legend>info</legend>
+            <label>Username <span style="color:brown;">*</span></label>
+            <input  class="one" type="text" name="username" id="username" placeholder="username"><br><br>
+            <label>Country/City <span style="color:brown;">*</span></label>
+            <select class="one" id="country" name="country" required>
+                <option value=" " disabled selected>select city/country </option>
+                <option value="China" selected>China</option>
+                <option value="United States">United States</option>
+                <option value="India">India</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Australia">Australia</option>
+                </select><br><br>
+                <label>Company Name</label>
+                <input class="one" type="text"><br><br>
+                <label>Adress</label>
+                <textarea class="one" value="adress" cols="10"></textarea><br><br>
+                
+           </fieldset>
+        </form>
+    </section>
+</body>
+</html>

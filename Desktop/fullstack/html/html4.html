@@ -1,0 +1,96 @@
+<!--FORM-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <form action="registration.jsp" method="post">
+        <table border="1px" cellpadding="10" cellspacing="0">
+            <tr>
+                <td>First Name</td>
+                <td>
+                    <input type="text" name="firstname" id="firstname" placeholder="Firstname">
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text" name="lastname" id="lastname" placeholder="Lasttname">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" name="password" id="password" placeholder="password">
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" name="Email" id="Email" placeholder="enter email here">
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="male">male &nbsp;
+                    <input type="radio" name="male">female &nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td>Languages</td>
+                <td>
+                    <input type="checkbox" name="java">java<br>
+                    <input type="checkbox" name="python">python
+                </td>
+            </tr>
+            <tr>
+                <td>Date Of Birth</td>
+                <td>
+                    <input type="date" name="date of birth">
+                </td>
+            </tr>
+            <tr>
+                <td>Select Photo</td>
+                <td>
+                    <input type="file" name="photo" >
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td>
+                    <input type="number" name="number">
+                </td>
+            </tr>
+            <tr>
+                <td>Adress</td>
+                <td>
+                    <textarea name="address" cols="20" rows="3"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <tr>
+                    <td>Select City</td>
+                    <td>
+                        <select name="city" id="city">
+                            <option value="">Select City</option>
+                            <option value="1">Hyderabad</option>
+                            <option value="2">Chennai</option>
+                            <option value="3">Vijayawada</option>
+                        </select>
+                    </td>
+                </tr>
+            <tr align="center">
+                <td colspan="2">
+                    <input  type="submit" name="submit" >
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

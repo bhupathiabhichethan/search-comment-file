@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bhupathiabhichethan/Desktop/fullstack/patterns(c)/output/patterns6'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _name, symObjAddr: 0x0, symBinAddr: 0x100003DEC, symSize: 0x40 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _name, symObjAddr: 0x0, symBinAddr: 0x100003DEC, symSize: 0x40 }
+  - { offsetInCU: 0x65, offset: 0x65, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x40, symBinAddr: 0x100003E2C, symSize: 0x140 }
+...

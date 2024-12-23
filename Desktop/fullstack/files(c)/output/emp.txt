@@ -1,0 +1,12 @@
+employe no :6
+employe name :afaa
+1	abhi
+1	 "/Users/bhupathiabhichethan/Desktop/fullstack/files(c)/output"
+1	iles7"
+1	abhi
+0	
+2	afaa
+56	afafa
+56	 "/Users/bhupathiabhichethan/Desktop/fullstack/files(c)/output"
+56	iles7"
+1	aBHI

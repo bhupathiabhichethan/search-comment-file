@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/bhupathiabhichethan/Desktop/fullstack/practice(c)/output/practice6'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D8C, symSize: 0xB0 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D8C, symSize: 0xB0 }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _input, symObjAddr: 0xB0, symBinAddr: 0x100003E3C, symSize: 0x74 }
+  - { offsetInCU: 0xB7, offset: 0xB7, size: 0x8, addend: 0x0, symName: _reverse, symObjAddr: 0x124, symBinAddr: 0x100003EB0, symSize: 0x7C }
+...
