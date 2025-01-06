@@ -1,0 +1,77 @@
+
+
+body{
+    background-color: gray; /* Set the gray background color */
+    width: 100%;            /* Adjust the width as needed */
+    height: 300px; 
+    
+}
+
+.menu-icon {
+    display: inline-flex;
+align-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Circle size */
+    height: 60px;
+    border-radius: 50%; /* Makes it circular */
+    background-color: gray#00ff33; /* Background color */
+    color: #fff; /* Icon color */
+    font-size: 24px; /* Icon size */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    text-align: center;
+    transition: all 0.3s ease; /* For hover effect */
+    margin-left: 300px;
+    margin-right: 20px;
+}
+
+.menu-icon:hover {
+    background-color: #00b315; /* Darker blue on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+.collapse{
+    margin-top: 20px;
+}
+.custom-search-input {
+            width: 300px; 
+            margin-left: 100px;/* Set desired width */
+        }
+.section1{
+    background-color:white
+    /* font-size: 70px; */
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 50px;
+
+}    
+.text1{
+    background-color: #00ff33;
+
+}    
+.image1{
+    position: fixed; 
+ margin-left: 700px; 
+
+}
+p{
+    font-size: 30px;
+    gap: 20px;
+    /* margin-left: 300px; */
+
+}
+.fa-solid :hover{
+    color: red;
+    background-color: red;
+    transform: scale(1.1); 
+}
+
+body {
+    background-color: rgb(204, 56, 56);
+    margin: 0; /* Remove default browser margins */
+    padding-bottom:20px;
+}
+
+nav {
+    background-color:white;
+    margin-left: 0; /* No offset for the nav bar */
+}
