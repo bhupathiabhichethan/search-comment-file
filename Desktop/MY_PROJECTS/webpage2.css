@@ -1,0 +1,38 @@
+
+.email1{
+margin-left: 10px;
+margin-right: 40px;
+}
+.home1{
+    margin-left: 10px;
+}
+.div1 {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+  .social-media {
+    margin-left: auto; 
+  }
+.navbar-brand{
+    margin-right: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.navbar-nav {
+    display: flex; 
+    gap: 20px; 
+  }
+  .form-control{
+    width: 200px;
+  }
+
+.carousel-caption {
+    font-style: italic;
+}
+h5{
+    color: red;
+}
+
+

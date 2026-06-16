@@ -64,7 +64,29 @@
   <div class="row">
     <div class="col-sm-6">
       <h1 class="">Welcome to <br>our Business</h1>
-      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, quae.<br><br> <button type="button" onclick="redirect()" class="btn btn-primary button1">Get Started</button>&nbsp;<i class="fa-solid fa-circle-play"> Watch intro</i>
+      <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, quae.<br><br> 
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLogin" aria-controls="offcanvassLogin">
+          Get Started
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasLogin" aria-labelledby="offcanvasLoginLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLoginLabel">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <form>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                </div>
+                <button type="submit" class="btn btn-success">Login</button>
+            </form>
+        </div>
+    </div>&nbsp;<i class="fa-solid fa-circle-play"> Watch intro</i>
       </p>
       
     </div>

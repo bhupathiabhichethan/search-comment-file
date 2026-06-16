@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: search-comment-file
+Version: 1.0.2
+Summary: Search source code files using comments
+Author: Bhupathi Abhi Chethan
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# Search Comment
+
+Search source code files using comments.
+
+## Installation
+
+```bash
+pip install search-comment
+
+
+Installation:
+pip install search-comment-file
+
+Usage:
+search-comment "factorial"
+
+Example:
+search-comment "duplicates"

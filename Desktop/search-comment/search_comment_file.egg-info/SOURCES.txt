@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+search_comment/__init__.py
+search_comment/main.py
+search_comment_file.egg-info/PKG-INFO
+search_comment_file.egg-info/SOURCES.txt
+search_comment_file.egg-info/dependency_links.txt
+search_comment_file.egg-info/entry_points.txt
+search_comment_file.egg-info/top_level.txt
